@@ -156,6 +156,8 @@ REST_FRAMEWORK = {
 
 AUTH_USER_MODEL = 'core.User'
 
+SECRET_KEY = os.getenv("SECRET_KEY")
+
 DJOSER = {
     'SERIALIZERS': {
         'user_create': 'core.serializers.UserCreateSerializer',
