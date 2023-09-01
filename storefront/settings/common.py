@@ -159,10 +159,10 @@ AUTH_USER_MODEL = 'core.User'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': '<nhussainjee>$<dafault>',
-        'USER': '<nhussainjee>',
-        'PASSWORD': '<Swordking1!>',
-        'HOST': '<nhussainjee>.mysql.pythonanywhere-services.com',
+        'NAME': 'nhussainjee$dafault',
+        'USER': 'nhussainjee',
+        'PASSWORD': 'Swordking1!',
+        'HOST': 'nhussainjee.mysql.pythonanywhere-services.com',
     }
 }
 
