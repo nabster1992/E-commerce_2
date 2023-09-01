@@ -156,6 +156,17 @@ REST_FRAMEWORK = {
 
 AUTH_USER_MODEL = 'core.User'
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': '<your_username>$<your_database_name>',
+        'USER': '<your_username>',
+        'PASSWORD': '<your_mysql_password>',
+        'HOST': '<your_username>.mysql.pythonanywhere-services.com',
+    }
+}
+
+
 DJOSER = {
     'SERIALIZERS': {
         'user_create': 'core.serializers.UserCreateSerializer',
