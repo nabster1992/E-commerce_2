@@ -161,7 +161,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': '<nhussainjee>$<dafault>',
         'USER': '<nhussainjee>',
-        'PASSWORD': '<25920266>',
+        'PASSWORD': '<Swordking1!>',
         'HOST': '<nhussainjee>.mysql.pythonanywhere-services.com',
     }
 }
