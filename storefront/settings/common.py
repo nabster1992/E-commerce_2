@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
-import os 
+import os
 from pathlib import Path
 from datetime import timedelta
 from celery.schedules import crontab
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_filters',
-    'corsheaders', 
+    'corsheaders',
     'rest_framework',
     'djoser',
     'playground',
@@ -178,6 +178,16 @@ DEFAULT_FROM_EMAIL = 'from@nabbuy.com'
 
 ADMINS = [('nab', 'admin@nabbuy.com')]
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': '<nhussainjee>$<default>',
+        'USER': '<nhussainjee>',
+        'PASSWORD': '<Swordking1!>',
+        'HOST': '<nhussainjee>.mysql.pythonanywhere-services.com',
+    }
+}
+
 
 
 CELERY_BROKER_URL = 'redis://localhost:6379/1'
@@ -203,7 +213,7 @@ CACHES = {
 
 LOGGING = {
     'version': 1,
-    'disable_existing_loggers': False, 
+    'disable_existing_loggers': False,
     'handlers': {
         'console': {
             'class': 'logging.StreamHandler'
@@ -218,7 +228,7 @@ LOGGING = {
         '': {
         'handlers': ['console', 'file'],
             'level': os.environ.get('DJANGO_LOG_LEVEL', 'INFO')
-         
+
     }
 },
 'formatters': {
