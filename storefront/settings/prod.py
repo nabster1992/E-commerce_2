@@ -16,3 +16,4 @@ DATABASES = {
         'HOST': 'nhussainjee.mysql.pythonanywhere-services.com',
     }
 }
+    
