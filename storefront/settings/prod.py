@@ -1,11 +1,12 @@
 import os
 from .common import *
+from decouple import config
 
 
 DEBUG = False
 ALLOWED_HOSTS = ['rangvida.com', 'www.rangvida.com']
 
-SECRET_KEY = os.getenv('SECRET_KEY')
+SECRET_KEY = config('SECRET_KEY')
 
 DATABASES = {
     'default': {
