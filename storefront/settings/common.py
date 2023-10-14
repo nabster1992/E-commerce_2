@@ -159,15 +159,7 @@ REST_FRAMEWORK = {
 
 AUTH_USER_MODEL = 'core.User'
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'nhussainjee$storefront',
-        'USER': 'nhussainjee',
-        'PASSWORD': 'Swordking1!',
-        'HOST': 'nhussainjee.mysql.pythonanywhere-services.com'
-    }
-}
+
 
 
 DJOSER = {

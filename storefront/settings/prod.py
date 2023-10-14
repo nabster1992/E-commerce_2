@@ -14,7 +14,7 @@ DATABASES = {
         'NAME': 'nhussainjee$storefront',
         'USER': 'nhussainjee',
         'PASSWORD': 'Swordking1!',
-        'HOST': 'nhussajljnlnlinjee.mysql.pythonanywhere-services.com',
+        'HOST': 'nhussainjee.mysql.pythonanywhere-services.com',
     }
 }
     
